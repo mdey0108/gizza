@@ -1,7 +1,4 @@
-import 'dart:html';
-
 import "package:flutter/material.dart";
-import 'package:flutter/rendering.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -188,21 +185,21 @@ class HomePage extends StatelessWidget {
           // Important: Remove any padding from the ListView.
           padding: EdgeInsets.zero,
           children: [
-            const DrawerHeader(
+            DrawerHeader(
               decoration: BoxDecoration(
                 color: Colors.blue,
               ),
               child: Text('Drawer Header'),
             ),
             ListTile(
-              title: const Text('Item 1'),
+              title: Text('Item 1'),
               onTap: () {
                 // Update the state of the app.
                 // ...
               },
             ),
             ListTile(
-              title: const Text('Item 2'),
+              title: Text('Item 2'),
               onTap: () {
                 // Update the state of the app.
                 // ...
