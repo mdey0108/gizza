@@ -187,7 +187,7 @@ class HomePage extends StatelessWidget {
           children: [
             DrawerHeader(
               decoration: BoxDecoration(
-                color: Colors.blue,
+                color: Colors.black12,
               ),
               child: Text('Drawer Header'),
             ),
