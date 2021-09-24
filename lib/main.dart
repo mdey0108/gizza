@@ -1,20 +1,15 @@
 import 'package:flutter/material.dart';
-
 import 'home.dart';
 
 void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
   const MyApp({Key? key}) : super(key: key);
-
-  static const appTitle = 'Gizza The App';
-
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: appTitle,
-      home: MyHomePage(title: appTitle),
+      home: HomePage(),
     );
   }
 }
